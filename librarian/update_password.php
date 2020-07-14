@@ -80,7 +80,7 @@ include "navbar.php";
 
         ?>
         ?>
-        <div class="wrapper">
+        <div class="wrapper" id="main">
             <div class="box">
                 <div class="box-content box-form">
                     <h1>Change Your Password</h1>

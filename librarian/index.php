@@ -5,7 +5,7 @@ include "navbar.php";
 <!DOCTYPE html>
 <html lang="en">
     <body>
-        <div class="wrapper">	
+        <div class="wrapper" id="main">	
             <br>
             <div class="box">
                 <div class="box-content box-home">

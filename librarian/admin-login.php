@@ -33,7 +33,7 @@ if(isset($_SESSION['admin'])) {
             }
         }
         ?>
-        <div class="wrapper">
+        <div class="wrapper" id="main">
 
             <br>
             <div class="box">

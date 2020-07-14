@@ -11,14 +11,6 @@ if(isset($_SESSION['user'])) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
-
-    <head>
-
-        <title>
-            Student Login
-        </title>
-    </head>
-
     <body>
         <?php
         $error="";
@@ -46,7 +38,7 @@ if(isset($_SESSION['user'])) {
         }
 
         ?>
-        <div class="wrapper">
+        <div class="wrapper" id="main">
             <br>
             <div class="box">
                 <div class="box-content box-form">

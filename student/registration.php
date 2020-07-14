@@ -88,7 +88,7 @@ include "navbar.php";
 
         }
         ?>
-        <div class="wrapper">
+        <div class="wrapper" id="main">
 
             <div class="box">
                 <div class="box-content box-form">

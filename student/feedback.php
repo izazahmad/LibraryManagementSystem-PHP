@@ -10,8 +10,8 @@ if(!isset($_SESSION['user'])) {
     <head>
     </head>
     <body>
-        <div class="wrapper">
-            <div class="box full-box">
+        <div class="wrapper" id="main">
+            <div class="box full-box log-pad">
                 <div class="box-content box-form">
                     <div class="container">
                         <h1>If you have any suggesions or questions please comment below.</h1>

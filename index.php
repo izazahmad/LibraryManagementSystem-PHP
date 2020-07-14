@@ -9,7 +9,7 @@ include "header.php";
 
 </head>
 <body>
-	<div class="wrapper">	
+	<div class="wrapper" id="main">	
             <div class="box">
                 <div class="box-content box-home">
                     <h1>Welcome to library</h1><br>

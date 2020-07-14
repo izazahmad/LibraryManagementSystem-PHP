@@ -197,11 +197,11 @@ td.action {
     text-align: center;
     color: white;
 }
+.box.log-pad {
+    margin-left: 150px;
+}
 .box.full-box {
     width: 80%;
-}
-.box.big-box {
-    width: 90%;
 }
 .box .box-content {
 
@@ -327,30 +327,128 @@ Books Page
 
 /* Mediam Devices like Landscape Tablets and medium desktops*/
 @media (min-width:992px) and (max-width:1199px) {
+.box.full-box
+{
+    min-width: 800px !important;
+}
 
+.box .box-content h1 {
+    font-size: 30px;
+}
+.box .box-content h2 {
+    font-size: 20px;
+}
+.box-content p {
+    padding-top: 15px;
+}
+td, th {
+        font-size: 15px;
+}
+.btn {
+    padding: .360rem .60rem !important;
+    font-size: 15px !important;
+    line-height: 1 !important;
+}
+.form-control {
+    height: calc(1.5em + .55rem );
+    padding: .360rem .60rem;
+    font-size: 15px;
+    line-height: 1;
+}
 
 }
 
 /* small devices like protrait tablets and small desktops*/
 @media (min-width:768px) and (max-width:991px) {
 
+.box.full-box
+{
+    min-width: 800px !important;
+}
+.box.log-pad {
+    margin-left: 130px;
+}
+.box .box-content h1 {
+    font-size: 30px;
+}
+.box .box-content h2 {
+    font-size: 20px;
+}
+.box-content p {
+    padding-top: 15px;
+}
+td, th {
+        font-size: 15px;
+}
+.btn {
+    padding: .360rem .60rem !important;
+    font-size: 15px !important;
+    line-height: 1 !important;
+}
+.form-control {
+    height: calc(1.5em + .55rem );
+    padding: .360rem .60rem;
+    font-size: 15px;
+    line-height: 1;
+}
+.sidenav {
+    width: 130px;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px;
+    font-size: 15px;
+
+}
+
 }
 
 /* extra small devices like landscape phones and portrait tablets */
 @media (max-width:767px) {
-
-}
-
-/* extra small devices  */
-@media (max-width:480px) {
     
+.box.full-box
+{
+    min-width: 800px !important;
+}
+    .box.log-pad, .box {
+        margin-left: 100px;
+    }
+.box .box-content h1 {
+    font-size: 25px;
+}
+.box .box-content h2 {
+    font-size: 15px;
+}
+.box-content p {
+    padding-top: 12px;
+}
+    td, th {
+        font-size: 12px;
+    }
+    .sidenav {
+    width: 100px;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 6px;
+    font-size: 12px;
+
+}
+    .btn {
+    padding: .360rem .60rem !important;
+    font-size: 12px !important;
+    line-height: 1 !important;
+}
+    .form-control {
+    height: calc(1.5em + .55rem );
+    padding: .360rem .60rem;
+    font-size: 12px;
+    line-height: 1;
+}
 
 }
 
-/* extra small devices  */
-@media (max-width:320px) {
-
-
-}
 
 

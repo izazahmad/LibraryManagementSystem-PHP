@@ -14,7 +14,7 @@ if(!isset($_SESSION['login_admin'])) {
 
         <div class="wrapper" id="main">
 
-            <div class="box full-box">
+            <div class="box full-box log-pad">
                 <div class="box-content box-form">
                     <div class="container">
 

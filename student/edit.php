@@ -57,7 +57,7 @@ if(!isset($_SESSION['login_user']))
             header("Location: update_password.php");
         }
         ?>
-        <div class="wrapper">
+        <div class="wrapper" id="main">
             <div class="box">
                 <div class="box-content box-form">
                     <h1 class="text-center">Edit Information</h1>

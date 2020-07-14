@@ -80,7 +80,7 @@ if(!$_SESSION['login_admin']) {
 
         }
         ?>
-        <div class="wrapper">
+        <div class="wrapper" id="main">
 
             <div class="box">
                 <div class="box-content box-form">

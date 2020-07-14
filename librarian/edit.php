@@ -9,10 +9,7 @@ if(!isset($_SESSION['login_admin']))
 ?>
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>edit profile</title>
 
-    </head>
     <body>
         <?php
         if(isset($_POST['submit']))
@@ -61,8 +58,8 @@ if(!isset($_SESSION['login_admin']))
         }
         ob_end_flush();
         ?>
-        <div class="wrapper">
-            <div class="box full-box">
+        <div class="wrapper" id="main">
+            <div class="box">
                 <div class="box-content box-form">
                     <h2>Edit Information</h2>
                     <?php

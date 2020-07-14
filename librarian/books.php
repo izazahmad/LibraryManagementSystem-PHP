@@ -14,7 +14,7 @@ include "navbar.php";
         }
         ?>
         <div class="wrapper" id="main">
-            <div class="box full-box">
+            <div class="box full-box log-pad">
                 <div class="box-content box-form">
                     <div class="container">
                         <h1 class="text-center">List of Books</h1>

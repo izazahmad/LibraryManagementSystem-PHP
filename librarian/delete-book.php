@@ -28,7 +28,7 @@ if(!isset($_SESSION['admin']))
         }
         ob_end_flush();
         ?>
-        <div class="wrapper">	
+        <div class="wrapper" id="main">	
             <br>
             <div class="box">
                 <div class="box-content box-home">
