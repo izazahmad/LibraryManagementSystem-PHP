@@ -1,8 +1,3 @@
-/* 
-html5doctor.com Reset Stylesheet
-
-*/
-
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
@@ -276,6 +271,8 @@ Books Page
     top: 0;
     left: 0;
     overflow-x: hidden;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
     transition: 0.5s;
     padding-top: 60px;
 }
@@ -286,15 +283,21 @@ Books Page
     font-size: 15px;
     color: #fff;
     display: block;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
     transition: 0.3s;
 }
 
 .sidenav a:hover , .sidebar a:focus {
     color: #000;
     background-color: #fff;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
     transition: .5s;
 }
 #main {
+    -webkit-transition: margin-left .5s;
+    -o-transition: margin-left .5s;
     transition: margin-left .5s;
     padding: 16px;
 }
@@ -317,7 +320,7 @@ Books Page
     margin: 5px 0;
 }
 /*===============================================
-            Responsive
+Responsive
 =================================================*/
 /* Large Devices like Desktops and laptops */
 @media(min-width:1200px) {
@@ -327,128 +330,125 @@ Books Page
 
 /* Mediam Devices like Landscape Tablets and medium desktops*/
 @media (min-width:992px) and (max-width:1199px) {
-.box.full-box
-{
-    min-width: 800px !important;
-}
+    .box.full-box
+    {
+        min-width: 800px !important;
+    }
 
-.box .box-content h1 {
-    font-size: 30px;
-}
-.box .box-content h2 {
-    font-size: 20px;
-}
-.box-content p {
-    padding-top: 15px;
-}
-td, th {
+    .box .box-content h1 {
+        font-size: 30px;
+    }
+    .box .box-content h2 {
+        font-size: 20px;
+    }
+    .box-content p {
+        padding-top: 15px;
+    }
+    td, th {
         font-size: 15px;
-}
-.btn {
-    padding: .360rem .60rem !important;
-    font-size: 15px !important;
-    line-height: 1 !important;
-}
-.form-control {
-    height: calc(1.5em + .55rem );
-    padding: .360rem .60rem;
-    font-size: 15px;
-    line-height: 1;
-}
+    }
+    .btn {
+        padding: .360rem .60rem !important;
+        font-size: 15px !important;
+        line-height: 1 !important;
+    }
+    .form-control {
+        height: calc(1.5em + .55rem );
+        padding: .360rem .60rem;
+        font-size: 15px;
+        line-height: 1;
+    }
 
 }
 
 /* small devices like protrait tablets and small desktops*/
 @media (min-width:768px) and (max-width:991px) {
 
-.box.full-box
-{
-    min-width: 800px !important;
-}
-.box.log-pad {
-    margin-left: 130px;
-}
-.box .box-content h1 {
-    font-size: 30px;
-}
-.box .box-content h2 {
-    font-size: 20px;
-}
-.box-content p {
-    padding-top: 15px;
-}
-td, th {
+    .box.full-box
+    {
+        min-width: 800px !important;
+    }
+    .box.log-pad {
+        margin-left: 130px;
+    }
+    .box .box-content h1 {
+        font-size: 30px;
+    }
+    .box .box-content h2 {
+        font-size: 20px;
+    }
+    .box-content p {
+        padding-top: 15px;
+    }
+    td, th {
         font-size: 15px;
-}
-.btn {
-    padding: .360rem .60rem !important;
-    font-size: 15px !important;
-    line-height: 1 !important;
-}
-.form-control {
-    height: calc(1.5em + .55rem );
-    padding: .360rem .60rem;
-    font-size: 15px;
-    line-height: 1;
-}
-.sidenav {
-    width: 130px;
-    padding-top: 60px;
-}
+    }
+    .btn {
+        padding: .360rem .60rem !important;
+        font-size: 15px !important;
+        line-height: 1 !important;
+    }
+    .form-control {
+        height: calc(1.5em + .55rem );
+        padding: .360rem .60rem;
+        font-size: 15px;
+        line-height: 1;
+    }
+    .sidenav {
+        width: 130px;
+        padding-top: 60px;
+    }
 
-.sidenav a {
-    padding: 8px;
-    font-size: 15px;
+    .sidenav a {
+        padding: 8px;
+        font-size: 15px;
 
-}
+    }
 
 }
 
 /* extra small devices like landscape phones and portrait tablets */
 @media (max-width:767px) {
-    
-.box.full-box
-{
-    min-width: 800px !important;
-}
+
+    .box.full-box
+    {
+        min-width: 800px !important;
+    }
     .box.log-pad, .box {
         margin-left: 100px;
     }
-.box .box-content h1 {
-    font-size: 25px;
-}
-.box .box-content h2 {
-    font-size: 15px;
-}
-.box-content p {
-    padding-top: 12px;
-}
+    .box .box-content h1 {
+        font-size: 25px;
+    }
+    .box .box-content h2 {
+        font-size: 15px;
+    }
+    .box-content p {
+        padding-top: 12px;
+    }
     td, th {
         font-size: 12px;
     }
     .sidenav {
-    width: 100px;
-    padding-top: 60px;
-}
+        width: 100px;
+        padding-top: 60px;
+    }
 
-.sidenav a {
-    padding: 6px;
-    font-size: 12px;
+    .sidenav a {
+        padding: 6px;
+        font-size: 12px;
 
-}
+    }
     .btn {
-    padding: .360rem .60rem !important;
-    font-size: 12px !important;
-    line-height: 1 !important;
-}
+        padding: .360rem .60rem !important;
+        font-size: 12px !important;
+        line-height: 1 !important;
+    }
     .form-control {
-    height: calc(1.5em + .55rem );
-    padding: .360rem .60rem;
-    font-size: 12px;
-    line-height: 1;
-}
+        height: calc(1.5em + .55rem );
+        padding: .360rem .60rem;
+        font-size: 12px;
+        line-height: 1;
+    }
 
 }
-
-
-
